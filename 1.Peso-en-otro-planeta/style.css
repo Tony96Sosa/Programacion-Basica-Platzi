@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	background-color: grey;
+	font-weight: bold;
+	color: white;
+}
+.title{
+	text-align: center;
+}
+.option{
+	padding-left: 30px;
+}
