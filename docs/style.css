@@ -24,6 +24,9 @@ body{
 }
 .form__boton{
 	margin: auto;
+	border-radius: 15px;
+	background-color: lightblue;
+	border: 2px solid black;
 }
 .canvas{
 	background-color: lightgreen;
@@ -39,7 +42,7 @@ body{
 .boton-reinicio{
 	display: block;
 	box-sizing: border-box;
-	background-color: lightgreen;
+	background-color: lightblue;
 	width: 40%;
 	height: 40px;
 	margin: 10px auto;
@@ -49,4 +52,30 @@ body{
 	font-size: 25px;
 	border-radius: 50px;
 	color: black;
+	border: 2px solid black;
+}
+@media screen and (max-width: 570px){
+	.title{
+		width: 90%;
+	}
+	.form{
+		height: 120px;
+	}
+	.form__label{
+		text-align: center;
+		font-size: 25px;
+		width: 90%;
+	}
+	.form__text{
+		height: 20px;
+		width: 90%;
+	}
+	.form__boton{
+		width: 90%;
+		font-size: 20px;
+		margin: 10px auto;
+	}
+	.boton-reinicio{
+		width: 60%;
+	}
 }
