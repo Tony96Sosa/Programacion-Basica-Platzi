@@ -2,13 +2,21 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Javascript</title>
+	<title>Dibujando en Canvas</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 class="title">Tu peso en otro planeta</h1>
-	<h2 class="option">1.Marte</h2>
-	<h2 class="option">1.Jupiter</h2>
-<script type="text/javascript" src="script.js"></script>
+	<h1 class="title">Dibujando en canvas</h1>
+	<form class="form">
+		<label for="lineas" class="form__label">Cuantas lineas:</label>
+		<input type="text" id="lineas" class="form__text">
+		<input type="button" value="Cargar" id="form__boton" class="form__boton" />
+	</form>
+	<div class="canvas">
+	<canvas id="canvas" width="300" height="300" ></canvas>
+	</div>
+	<p class="text">Asi queda tu dibujo</p>
+	<a href="" class="boton-reinicio">Reiniciar</a>
+<script src="script.js"></script>
 </body>
 </html>
